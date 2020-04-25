@@ -43,6 +43,7 @@ class CsvReader implements Reader
                     $questionArr[] = $this->processLine($line, $file, $lineNum);
                     ++$lineNum;
                 }
+                fclose($handle);
             }
         } catch (\Exception $exception) {
             throw new ReaderProblemWithFile($file);

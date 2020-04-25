@@ -1,0 +1,15 @@
+{
+  "text": "test",
+  "createdAt": "2019-01-01 00:00:00",
+  "choices": [
+    {
+      "text": "choice1"
+    },
+    {
+      "text": "choice2"
+    },
+    {
+      "text": "choice3"
+    }
+  ]
+}

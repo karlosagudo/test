@@ -7,3 +7,8 @@ questions_reader:
   methods: GET
   controller: App\Controller\Questions\QuestionsReader
 
+questions_writer:
+  path: /questions
+  methods: POST
+  controller: App\Controller\Questions\QuestionsWriter
+

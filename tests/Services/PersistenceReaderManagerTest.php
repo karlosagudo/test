@@ -14,6 +14,9 @@ use Psr\Log\NullLogger;
 
 class PersistenceReaderManagerTest extends TestCase
 {
+    /** @var NullLogger */
+    private $logger;
+
     public function setUp()
     {
         $this->logger = new NullLogger();
