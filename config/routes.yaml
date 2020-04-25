@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+questions_reader:
+  path: /questions
+  methods: GET
+  controller: App\Controller\Questions\QuestionsReader
+
